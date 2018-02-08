@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
-<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
-<!--[if IE 8]><html class="preIE9"><![endif]-->
-<!--[if gte IE 9]><!-->
-<html lang="en"><!--<![endif]-->
+<html lang="en">
   <head>
     <meta charset="UTF-8">
   
@@ -13,14 +9,11 @@
   
   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
   
-  <link rel="stylesheet" href="css/heroic-features.css">
+  <link rel="stylesheet" href="css/custom.css">
 
   <link rel="stylesheet" href="css/font-awesome.min.css">
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   <!--
   <script type="text/javascript">
@@ -35,426 +28,185 @@
    })();
   </script>
   -->
+  
   </head>
 
 
   <body>
-      <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-      <div class="container">
-        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2">
-          <img class="img-responsive img-fluid" src="./images/logo.jpg" alt="logo"/>
-        </div>
-        <a class="navbar-brand" href="index.html">Pencil Hacker</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul id="top-menu" class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a id="button1" class="nav-link" href="#greetings">Portfolio
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a id="button2" class="nav-link" href="#tools">Tools</a>
-            </li>
-            <li class="nav-item">
-              <a id="button3" class="nav-link" href="#process">Process</a>
-            </li>
-            <li class="nav-item">
-              <a id="button4" class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+	<div class="layout">
+		<!-- Navigation -->
+		
+		<div class="header">
+			<div class="logo">
+				<img src="./images/logo.jpg" alt="logo"/>
+				<a href="index.html">Pencil Hacker</a>
+			</div>
+			
+			<div class="navigation">
+				<a id="button1" href="#greetings">Portfolio</a>
+				<a id="button2" href="#tools">Tools</a>
+				<a id="button3" href="#process">Process</a>
+				<a id="button4" href="#contact">Contact</a>
+			</div>
+		</div>
+		
+		
+		<div class="section1">
+			<h1>Greetings Human,</h1>
+			<p>An Interaction Designer I am, fascinated by science and technology - simulating virtual experiences and crafting digital products.
+			<!--<br /> Documented below is my work with organisations and personal projects.--></p>
 
-    <!-- Page Content -->
-    <div class="container">
+			<div>
+				<img src="./images/antariksh.png" alt="antariksh">
+				<h4>Antariksh</h4>
+				<p>A smart city startup, building minimalistic and critical smart phone solutions. </p>
+            </div>
 
-      <!-- Jumbotron Header -->
-      <header class="jumbotron-fluid my-4">
-        <h1 class="display-4 text-pink" id="greetings">Greetings Human,</h1>
-        <p class="lead">An Interaction Designer I am, fascinated by science and technology - simulating virtual experiences and crafting digital products.<!--<br /> Documented below is my work with organisations and personal projects.--></p>
-       <!--<a href="#" class="btn btn-primary btn-lg">Call me maybe</a>-->
-      </header>
+			<div>
+				<img src="./images/nid.png" alt="antariksh">
+				<h4>NID - B</h4>
+				<p>M.Des. Interaction Design portfolio at National Institute of Design - Bangalore.</p>
+			</div>
 
-      <!-- Page Features -->
-      <div class="row text-center">
+            <div>
+				<img src="./images/fab.png" alt="fab">
+				<h4>Fab</h4>
+				<p>Discover products by artists and designers that bring personality to your life.</p>
+            </div>
+          
+            <div>
+				<img src="./images/xcube.png" alt="[x]cube LABS">
+				<h4>[x]cube Labs</h4>
+				<p>Digital innovation and consulting services for Internet based challenges.</p>
+            </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/antariksh.png" alt="antariksh">
-            <div class="card-body">
-              <h4 class="card-title">Antariksh</h4>
-              <p class="card-text">A smart city startup, building minimalistic and critical smart phone solutions. </p>
+            <div>
+				<img src="./images/uni.png" alt="Univariety">
+				<h4>Univariety</h4>
+				<p>Student centric college admissions to  bag dream universities and scholarships.</p>
             </div>
-            <div class="card-footer">
-              <a href="antariksh.html" class="btn btn-primary btn-block btn-pink">View Projects</a>
-            </div>
-          </div>
-        </div>
+          
+		</div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/nid.png" alt="antariksh">
-            <div class="card-body">
-              <h4 class="card-title">NID - B</h4>
-              <p class="card-text">M.Des. Interaction Design portfolio at National Institute of Design - Bangalore.</p>
-            </div>
-            <div class="card-footer">
-              <a href="antariksh.html" class="btn btn-primary btn-block btn-pink">View Projects</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/fab.png" alt="fab">
-            <div class="card-body">
-              <h4 class="card-title">Fab</h4>
-              <p class="card-text">Discover products by artists and designers that bring personality to your life.</p>
-            </div>
-            <div class="card-footer">
-              <a href="fab.html" class="btn btn-primary btn-block btn-pink">View Projects</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/xcube.png" alt="[x]cube LABS">
-            <div class="card-body">
-              <h4 class="card-title">[x]cube Labs</h4>
-              <p class="card-text">Digital innovation and consulting services for internet based challenges.</p>
-            </div>
-            <div class="card-footer">
-              <a href="xcube.html" class="btn btn-primary btn-block btn-pink">View Projects</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/uni.png" alt="Univariety">
-            <div class="card-body">
-              <h4 class="card-title">Univariety</h4>
-              <p class="card-text">Student centric college admissions to  bag dream universities and scholarships.</p>
-            </div>
-            <div class="card-footer">
-              <a href="uni.html" class="btn btn-primary btn-block btn-pink">View Projects</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <!-- /.row -->
-
-      <!-- Jumbotron Header -->
-      <header class="jumbotron-fluid my-4" id="tools">
+		<!-- Section 2 -->
+		<div class="section2">
         
-        <h1 class="display-4 text-pink" id="tools">Tools,</h1>
-        <p class="lead">My arsenal comprises of the following softwares to organise, communicate, visualise ideas and build prototypes.</p>
+			<h1 id="tools">Tools,</h1>
+			<p>My arsenal comprises of the following softwares to organise, communicate, visualise ideas and build prototypes.</p>
 
-      <div class="row">
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/ai.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Illustrator</p>
-          </div>
-        </div>
+		    <img src="./images/ai.png"/>
+            <p >Illustrator</p>
+        
+            <img src="./images/ps.png"/>
+            <p >Photoshop</p>
+        
+            <img src="./images/xd.png"/>
+            <p >Experience Design</p>
+        
+            <img src="./images/id.png"/>
+            <p >InDesign</p>
+        
+            <img src="./images/ae.png"/>
+            <p >After Effects</p>
+        
+            <img src="./images/lr.png"/>
+            <p >Lightroom</p>
+        
+            <img src="./images/ht.png"/>
+            <p >HTML 5</p>
+        
+            <img src="./images/cs.png"/>
+            <p >CSS 3</p>
+        
+            <img src="./images/js.png"/>
+            <p >Javascript</p>
+        
+            <img src="./images/sk.png"/>
+            <p >Sketch</p>
+        
+            <img src="./images/tr.png"/>
+            <p >Trello</p>
+        
+            <img src="./images/sl.png"/>
+            <p >Slack</p>
+        
+            <img   src="./images/bootstrap.png"/>
+            <p >Bootstrap</p>
+        
+            <img   src="./images/arduino.png"/>
+            <p >Arduino</p>
+        
 
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/ps.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Photoshop</p>
-          </div>
-        </div>
+		</div>
+	
+		<div class="section3">
+			<h1 id="process">Design process,</h1>
+			<p>Involves research, finding insights, identifying personas - building scenarios, developing concepts and testing models.</p>
+       
+			<img src="./images/research.png" alt="antariksh">
+            <h4>Research</h4>
+            <p>Question the existing, find answers and insights into current problems. </p>
+            
+            <img src="./images/ideate.png" alt="antariksh">
+            <h4>Ideate</h4>
+            <p>Identify needs, address motivations and goals of users to create concepts.</p>
+            
+            <img src="./images/build.png" alt="fab">
+            <h4>Prototype</h4>
+            <p>Identify scope and milestones, find challenges and prototype solutions.</p>
+            
+            <img src="./images/test.png" alt="[x]cube LABS">
+            <h4>Validate</h4>
+            <p>Use data to quantify solutions and reiterate to make better experiences.</p>
+    
+			<p>Interaction Design</p>
+        
+			<p>Interface Design</p>
 
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/xd.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Experience Design</p>
-          </div>
-        </div>
-      
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/id.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">InDesign</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/ae.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">After Effects</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/lr.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Lightroom</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/ht.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">HTML 5</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/cs.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">CSS 3</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/js.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Javascript</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/sk.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Sketch</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/tr.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Trello</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/sl.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Slack</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/bootstrap.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Bootstrap</p>
-          </div>
-        </div>
-
-        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/arduino.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Arduino</p>
-          </div>
-        </div>
-
-<!--        <div class="row m_top col-lg-4">
-          <div class="col-lg-3 vertical-center">
-            <img class="img-responsive img-fluid" src="./images/sl.png"/>
-          </div>
-          <div class="col-lg-9 vertical-center">
-            <p class="lead">Premiere</p>
-          </div>
-        </div>
--->
-
-      </div>
-       <!--<a href="#" class="btn btn-primary btn-lg">Call me maybe</a>-->
-      </header>
-
-      <header class="jumbotron-fluid my-4">
-        <h1 class="m_top display-4 text-pink" id="process">Design process,</h1>
-        <p class="lead">Involves research, finding insights, identifying personas - building scenarios, developing concepts and testing models.</p>
-       <!--<a href="#" class="btn btn-primary btn-lg">Call me maybe</a>-->
-       <div class="row text-center">
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/research.png" alt="antariksh">
-            <div class="card-body">
-              <h4 class="card-title">Research</h4>
-              <p class="card-text">Question the existing, find answers and insights into current problems. </p>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/ideate.png" alt="antariksh">
-            <div class="card-body">
-              <h4 class="card-title">Ideate</h4>
-              <p class="card-text">Identify needs, address motivations and goals of users to create concepts.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/build.png" alt="fab">
-            <div class="card-body">
-              <h4 class="card-title">Create</h4>
-              <p class="card-text">Identify scope and milestones, find challenges and prototype solutions.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top co_logo" src="./images/test.png" alt="[x]cube LABS">
-            <div class="card-body">
-              <h4 class="card-title">Test</h4>
-              <p class="card-text">Use data to quantify solutions and reiterate to make better experiences.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-md-12 mb-4">
-          <p class="lead card text-center vertical-center">Interaction Design</p>
-        </div>
-
-        <div class="col-lg-6 col-md-12 mb-4">
-          <p class="lead card text-center">Interface Design</p>
-        </div>
-
-      </header>
-
-    </div>
+		</div>
     <!-- /.container -->
 
     <!-- Footer -->
-    <footer class="py-3 bg-yellow m_top">
+    <footer>
 
-      <div class="container" id="contact">
-
-        <header class="jumbotron-fluid my-4">
-          <h1 class="m_top display-4" id="greetings">Looking for new challenges,</h1>
-          <p class="lead">I enjoy collaborating with artists, programmers, designers and corporations to build engaging and versatile products.</p><br/>
-            <form id="contact-form">
-              <div class="row">
-                <div class="row col-lg-4">
-                  <input class="col-lg-12" type="text" name="your-name" id="your-name" minlength="3" placeholder="Full name" required>
-                  <input  class="col-lg-12 m_top" type="email" name="your-email" id="email" placeholder="Email Address" required>
-                  <textarea class="col-lg-12 m_top" name="your-message" id="your-message" placeholder="Message for me" class="expanding" required></textarea>
-                  <button class="col-lg-12 m_top btn btn-primary btn-block btn-pink" type="submit">
-                    <small>send</small>
-                  </button>
-                </div>
-                <div class=" col-lg-8">
+      <div id="contact">
+			<h1 id="greetings">Looking for new challenges,</h1>
+			<p>I enjoy collaborating with artists, programmers, designers and corporations to build engaging and versatile products.</p><br/>
+            
+			<form id="contact-form">
+                <input type="text" name="your-name" id="your-name" minlength="3" placeholder="Full name" required>
+                <input type="email" name="your-email" id="email" placeholder="Email Address" required>
+                <textarea name="your-message" id="your-message" placeholder="Message for me" class="expanding" required></textarea>
+                <button type="submit">
+					<small>send</small>
+                </button>
+				
+                <div>
                     <div id="map"></div>
-                  <img class="col-lg-12" src="">
+                  <img src="">
                 </div>
-              </div>
             </form>
-        </header>
       </div>
 
     </footer>
 
-      <div class="row the_end">
-        <div class="container">
-            <div class="row col-lg-12">
-              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <p class="m-0 text-center">Copyright &copy; Pencil Hacker 2015</p>
-              </div>
-
-              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <p class="m-0 text-center">pencilhacker@gmail.com</p>
-              </div>
-
-              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <p class="m-0 text-center">
-                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                  <i class="material-icons md-18">face</i>
-                  <i class="material-icons md-18">face</i>
-                  <i class="material-icons md-18">face</i>
-                </p>
-              </div>
-            </div>
-
-
+		<div class="copyright">
+			<p>Copyright &copy; Pencil Hacker 2015</p>
+			<p>pencilhacker@gmail.com</p>
+			
+			<i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="material-icons md-18">face</i>
+            <i class="material-icons md-18">face</i>
+            <i class="material-icons md-18">face</i>
         </div>
-      </div>
-
+	</div>
 <!--<div class="container">
 
 
 C76371
 
 FFB32B
-      <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-2">
-          <img class="img-responsive img-fluid" src="./images/logo.jpg" alt="logo"/>
-        </div>
-
-        <div class="align-self-center col-lg-8 col-md-8 col-sm-8">
-          <h1>Pencil Hacker</h1>
-        </div>  
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 xol-xs-12">
-          <p>I am an Interaction designer with a flair for analysing, conceptualising and prototyping enjoyable digital experiences.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <div><p>Strategise & Research</p></div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <div><p>Information Architecture</p></div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <div><p>Creative Coding</p></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><button type="button" class="btn btn-primary">Test</button></div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><button type="button" class="btn btn-secondary">Test</button></div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><button type="button" class="btn btn-success">Test</button></div>
-      </div>
-
-    </div>-->
-  	
-    <!-- Bootstrap core JavaScript -->
-    <!-- Bootstrap core JavaScript -->
+-->
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
@@ -588,7 +340,7 @@ $(window).scroll(function(){
 
     <script>
       function initMap() {
-        var uluru = {lat: 13.035933, lng: 77.53388};
+        var uluru = {lat: 13.0347357, lng: 77.5323664};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 16,
           center: uluru
