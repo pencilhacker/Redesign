@@ -1,31 +1,62 @@
 body{
 	font-family: 'Titillium Web', sans-serif;
 	color: #333333;
+	padding-top: 100px;
+	margin: 0px;
 }
 
 a{
 	text-decoration: none;
-	line-height: 80px;
+	line-height: 100px;
 	vertical-align: middle;
 	font-size: 1em;
 	color: #C76371;
 }
 
+h3{
+	color: #666666;
+	font-weight: normal;
+}
+
+.mTop{
+	margin-top: 80px;
+}
+
 .layout{
+	margin: auto;
+}
+
+.header{
+	background-color: white;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.defineGrid{
 	display: grid;
-	grid-gap: 20px;
-	max-width: 1024px;
+	grid-gap: 10px;
 	grid-template-columns: repeat(12, 1fr);
 	grid-auto-rows: min-content;
-	margin: auto;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.wrapper{
+	grid-column: 1 / -1;
 }
 
 .logo img{
 	width: 100%;
 }
 
+.logo:nth-child(1){
+	width: 100%;
+}
+
 .logo{
 	align-self: center;
+	    width: 60%;
 }
 
 .logoName{
@@ -38,6 +69,10 @@ a{
 	color: #333333;
 }
 
+.active{
+	opacity: 1;
+}
+
 .pages{
 	grid-column: 7 / -1;
 	text-align: right;
@@ -45,6 +80,11 @@ a{
 
 .pages a{
 	padding-right: 20px;
+	opacity: 0.6;
+}
+
+.pages a:hover{
+	opacity: 1;
 }
 
 .pages:nth-child(5){
@@ -53,11 +93,15 @@ a{
 
 .heading h1{
 	color: #FFB32B;
-	line-height: 1em;
+	line-height: 2em;
+	font-size: 2em;
+	margin-bottom: 0px;
 }
 
 .heading p{
-	font-size: 1.1em;
+	font-size: 1.3em;
+	line-height: 2em;
+	margin-top: 0px;
 }
 
 .section1{
@@ -207,7 +251,7 @@ a{
 
 .interaction{
 	color: #C76371;
-	border-top: 3px solid #C76371;
+	border-bottom: 3px solid #C76371;
 	font-size : 1.3em;
 	font-weight: bold;
 	text-align: center;
@@ -217,7 +261,7 @@ a{
 
 .interface{
 	color: #FFB32B;
-	border-top: 3px solid #FFB32B;
+	border-bottom: 3px solid #FFB32B;
 	font-size : 1.3em;
 	font-weight: bold;
 	text-align: center;
@@ -226,9 +270,9 @@ a{
 }
 
 .footer{
-	background-color: white;
-	height: auto;
-	grid-column: 1 / -1;
+	background-color: black;
+	bottom: 0;
+	color: white;
 }
 
 .copyright{
@@ -279,13 +323,51 @@ a{
 
 .links a:nth-child(6):hover{
 	color: #55acee;
-	padding-right: 0px;
 }
 
-.fullname{
-	grid-column: 1 / span 4;
+.emailForm{
+	grid-column: 1 / span 6;
+}
+
+.map{
+	grid-column: 7 / -1;
+	margin-bottom: 3em;
+}
+
+.field{
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 93%;
+	line-height: 2em;
+	margin-bottom: 1em;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.3em;
 }
 
 .message{
-	grid-column: 1 / span 4;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 93%;
+	height: 6em;
+	line-height: 2em;
+	margin-bottom: 1em;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.3em;
+}
+
+.submitButton{
+	width: 100%;
+	background-color: #666666;
+	color: white;
+	font-size: 1.3em;
+	text-align: center;
+	line-height: 50px;
+	border: none;
+	font-family: 'Titillium Web', sans-serif;
+	margin-bottom: 50px;
+}
+
+.submitButton:hover{
+	background-color: #C76371;
+	cursor: pointer;
 }
