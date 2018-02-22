@@ -5,7 +5,7 @@ body{
 
 a{
 	text-decoration: none;
-	line-height: 100px;
+	line-height: 80px;
 	vertical-align: middle;
 	font-size: 1em;
 	color: #C76371;
@@ -38,34 +38,17 @@ a{
 	color: #333333;
 }
 
-.but1{
-	grid-column: 8;
-	grid-row: 1;
+.pages{
+	grid-column: 7 / -1;
 	text-align: right;
 }
 
-.but2{
-	grid-column: 9;
-	grid-row: 1;
-	text-align: right;
+.pages a{
+	padding-right: 20px;
 }
 
-.but3{
-	grid-column: 10;
-	grid-row: 1;
-	text-align: right;
-}
-
-.but4{
-	grid-column: 11;
-	grid-row: 1;
-	text-align: right;
-}
-
-.but5{
-	grid-column: 12;
-	grid-row: 1;
-	text-align: right;
+.pages:nth-child(5){
+	padding-right: 0px;
 }
 
 .heading h1{
@@ -83,33 +66,19 @@ a{
 	grid-column: 1 / -1;
 }
 
-.antariksh{
-	grid-column: 1 / span 3;
-}
+.antariksh{}
 
-.nid{
-	grid-column: 4 / span 3;
-}
+.nid{}
 
-.fab{
-	grid-column: 7 / span 3;
-}
+.fab{}
 
-.xcube{
-	grid-column: 10 / span 3;
-}
+.xcube{}
 
-.univariety{
-	grid-column: 1 / span 3;
-}
+.univariety{}
 
-.adp{
-	grid-column: 4 / span 3;
-}
+.adp{}
 
-.btech{
-	grid-column: 7 / span 3;
-}
+.btech{}
 
 .tileImage{
 	width: 100%;
@@ -208,26 +177,31 @@ a{
 	grid-column: 1 / -1;
 }
 
-.research{
-	grid-column: 1 / span 3;
+.research{}
+
+.insights{}
+
+.prototype{}
+
+.validate{}
+
+.unit6{
+	grid-column: 1 / span 6;	
 }
 
-.insights{
-	grid-column: 4 / span 3;
+.unit1{
+	grid-column: 1 / span 3;	
 }
 
-.prototype{
-	grid-column: 7 / span 3;
+.unit2{
+	grid-column: 4 / span 3;	
 }
 
-.pink{
-	color: #C76371;
+.unit3{
+	grid-column: 7 / span 3;	
 }
 
-.yellow{
-	color: #FFB32B;
-}
-.validate{
+.unit4{
 	grid-column: 10 / span 3;
 }
 
@@ -257,11 +231,58 @@ a{
 	grid-column: 1 / -1;
 }
 
-.fullname{
-	grid-column: 1 / span 4;
+.copyright{
+	grid-column : 1 / span 4;
+	text-align: center;
+	line-height: 50px;
+	align-self: center;
 }
 
 .email{
+	grid-column : 5 / span 4;
+	text-align: center;
+	align-self: center;
+	line-height: 50px;
+}
+
+.links{
+	grid-column : 9 / span 4;
+	text-align: center;
+	align-self: center;
+}
+
+.links a{
+	padding-right: 20px;
+	color: #aaaaaa;
+	line-height: 50px;
+}
+
+.links a:nth-child(1):hover{
+	color: #007bb5;
+}
+
+.links a:nth-child(2):hover{
+	color: #1769ff;
+}
+
+.links a:nth-child(3):hover{
+	color: #8a3ab9;
+}
+
+.links a:nth-child(4):hover{
+	color: #000000;
+}
+
+.links a:nth-child(5):hover{
+	color: #ea4c89;
+}
+
+.links a:nth-child(6):hover{
+	color: #55acee;
+	padding-right: 0px;
+}
+
+.fullname{
 	grid-column: 1 / span 4;
 }
 
