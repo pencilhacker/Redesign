@@ -7,7 +7,6 @@ body{
 
 a{
 	text-decoration: none;
-	line-height: 100px;
 	vertical-align: middle;
 	font-size: 1em;
 	color: #C76371;
@@ -16,6 +15,10 @@ a{
 h3{
 	color: #666666;
 	font-weight: normal;
+}
+
+.center{
+	align-self: center;
 }
 
 .mTop{
@@ -43,19 +46,13 @@ h3{
 }
 
 .header{
+	height: 13vh;
+	z-index: 9999;
 	background-color: white;
 	position: fixed;
 	left: 0;
 	top: 0;
 	box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
-}
-
-.shrink a{
-	line-height: 100px;
-}
-
-.shrink .logo img{
-	width: 20%;
 }
 
 .company{
@@ -87,26 +84,40 @@ h3{
 	padding-left: 50px;
 }
 
+.defineGridSlider{
+	margin-top: -16px;
+	height: 87vh;//100% view height
+	width: 100vw;// 100% view width
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	grid-auto-rows: min-content;
+}
+
 .wrapper{
 	grid-column: 1 / -1;
 }
 
 .logo img{
 	width: 100%;
+	padding-top: 6px;
 }
 
 .logo:nth-child(1){
-	width: 100%;
+	justify-self: center;
+	width: 70%;
 }
 
 .logo{
-	align-self: center;
-	    width: 50%;
+	justify-self: center;
+	margin: auto;
+	width: 50%;
 }
 
 .logoName{
 	grid-column: 2 / span 2;
 	grid-row: 1;
+	text-align: left;
 	font-size: 1.3em;
 }
 
